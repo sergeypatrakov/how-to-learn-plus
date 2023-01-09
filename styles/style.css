@@ -1,12 +1,16 @@
+div {
+  border: 1px solid red;
+}
+
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', Helvetica, sans-serif;
+  /* Я хотел бы отказаться от использования шрифта Arial в своих проектах */
+  /* ниже привожу ссылки на статьи, из-за которых я решил так поступить */
+  /* https://www.artlebedev.ru/kovodstvo/business-lynch/2013/04/03/ */
+  /* https://infogra.ru/typography/master-klass-alekseya-kaptereva-pochemu-stiv-dzhobs-lyubil-shrifty */
 }
 
 .header {
