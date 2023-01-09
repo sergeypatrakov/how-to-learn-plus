@@ -18,7 +18,7 @@ HTML, CSS
 
 ### Description:
 
-Page layout using HTML, CSS, flexbox and BEM methodology
+Landing page layout using HTML, CSS, flexbox and BEM methodology
 
 ### Tech:
 
