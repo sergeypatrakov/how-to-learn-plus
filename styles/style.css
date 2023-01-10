@@ -11,20 +11,63 @@ div {
   /* ниже привожу ссылки на статьи, из-за которых я решил так поступить */
   /* https://www.artlebedev.ru/kovodstvo/business-lynch/2013/04/03/ */
   /* https://infogra.ru/typography/master-klass-alekseya-kaptereva-pochemu-stiv-dzhobs-lyubil-shrifty */
+  /* Если это важно, я верну его где он и должен быть (на место Helvetica) */
+  background-color: #f2f2f2;
 }
 
-.header {
+/* .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.main-illustration {
+  background-image: url(../images/header-image.png);
+}
+
+.logo_place_header {
+  min-height: 32px;
+  width: 228px;
+  margin-top: 30px;
+  margin-left: 64px;
+  background-image: url(/images/logo_place_header.svg);
+  background-repeat: no-repeat;
+} */
+
+/* .header__title {
+  width: 730px;
+  margin-left: 64px;
+  height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+}
+
+.header__subtitle {
+  width: 388px;
+  margin-bottom: 30px;
+  margin-left: 64px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__link {
+
+}
+
+.header__main-illustration {
+
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
-}
+  background-image: url(../images/logo_place_header.svg);
+} */
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -32,4 +75,272 @@ div {
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 784px;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.two-columns__brief {
+  width: 175px;
+  height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  display: block;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  width: 80%;
+
+}
+
+.two-columns__paragraph {
+  min-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  height: 1.15;
+  width: 60%;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.section-subtitle {
+  height: 34px;
+  width: 60%;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 920px;
+}
+
+.cards__item {
+  width: 240px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.cards__title {
+  height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 43px;
+}
+
+.cards__description {
+  height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 16px;
+}
+
+.oakley {
+
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-top: 60px;
+  align-content: space-between;
+}
+
+.table__heading {
+  height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+}
+
+.section-title_theme_dark {
+  width: 60%;
+  margin-top: 90px;
+  text-align: center;
+  color: #f2f2f2;
+  height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle_theme_dark {
+  width: 60%;
+  margin-top: 20px;
+  text-align: center;
+  color: #f2f2f2;
+  height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table_theme_dark {
+  margin-bottom: 90px;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text_theme_dark {
+  margin-top: 20px;
+  height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  display: flex;
+  flex-direction: row;
+  width: 1100px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resources__link {
+  height: 38px;
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 217px;
+}
+
+.footer__columns {
+
+}
+
+.footer__columns_content_copyright {
+
+}
+
+.footer__columns_content_info {
+
+}
+
+.footer__columns_content_social {
+
+}
+
+.logo_place_footer {
+
+}
+
+.footer__author {
+
+}
+
+.footer__column-heading {
+
+}
+
+.footer__column-links {
+
+}
+
+.footer__social-icon {
+
+}
+
+.footer__column-link {
+
 }
