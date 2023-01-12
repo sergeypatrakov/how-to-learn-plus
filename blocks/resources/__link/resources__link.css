@@ -1,0 +1,9 @@
+.resources__link {
+    height: 38px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 217px;
+  }
