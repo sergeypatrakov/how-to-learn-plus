@@ -123,11 +123,12 @@ div {
 }
 
 .section-title {
+  margin: 0;
   height: 1.15;
   width: 60%;
   font-size: 60px;
   font-weight: 600;
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -136,7 +137,7 @@ div {
   width: 60%;
   font-size: 24px;
   font-weight: normal;
-  margin-top: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -184,8 +185,38 @@ div {
   margin-top: 16px;
 }
 
+.video {
+
+}
+
+.video__iframes {
+
+}
+
+.video__iframe {
+
+}
+
 .oakley {
 
+}
+
+.feynman__title {
+  height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.feynman__subtitle {
+  height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  height: 51px;
+  font-size: 36px;
+  font-weight: normal;
 }
 
 .digits {
@@ -223,6 +254,42 @@ div {
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
+}
+
+.khan__author {
+  height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote {
+  height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+  height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.khan__quote-author-subline {
+  height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__buy-link {
+  height: 42px;
+  font-size: 30px;
+  font-weight: normal;
 }
 
 .kaufman {
