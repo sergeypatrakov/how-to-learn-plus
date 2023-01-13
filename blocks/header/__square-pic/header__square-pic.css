@@ -3,3 +3,10 @@
     width: 568px;
     background-image: url(../images/logo_place_header.svg);
   }
+
+  .header__square-pic {
+    position: absolute;
+    /* Должен быть прижат к правому краю
+    и отступать сверху от границы блока header 64px
+    top: 64px; */
+  }

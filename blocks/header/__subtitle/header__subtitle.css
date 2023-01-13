@@ -6,3 +6,8 @@
     font-size: 18px;
     font-weight: normal;
   }
+
+  .header__subtitle {
+    position: absolute;
+    /* Следите, чтобы на малых разрешениях текст был поверх других блоков */
+  }
