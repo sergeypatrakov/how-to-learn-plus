@@ -1,7 +1,6 @@
 .table__cell {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    margin-top: 60px;
-    align-content: space-between;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding-top: 60px;
+}
