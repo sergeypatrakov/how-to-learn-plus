@@ -1,13 +1,11 @@
 .header__subtitle {
-    width: 388px;
-    margin-bottom: 30px;
-    margin-left: 64px;
-    height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-  }
-
-  .header__subtitle {
-    position: absolute;
-    /* Следите, чтобы на малых разрешениях текст был поверх других блоков */
-  }
+  margin: 0;
+  width: 388px;
+  margin-bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  bottom: 30px;
+  z-index: 2;
+}

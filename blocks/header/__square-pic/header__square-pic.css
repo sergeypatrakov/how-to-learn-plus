@@ -1,12 +1,9 @@
 .header__square-pic {
-    height: 568px;
-    width: 568px;
-    background-image: url(../images/logo_place_header.svg);
-  }
-
-  .header__square-pic {
-    position: absolute;
-    /* Должен быть прижат к правому краю
-    и отступать сверху от границы блока header 64px
-    top: 64px; */
-  }
+  height: 568px;
+  width: 568px;
+  background-image: url(../images/logo_place_header.svg);
+  position: absolute;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
+}
