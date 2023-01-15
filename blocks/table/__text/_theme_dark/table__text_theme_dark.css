@@ -1,6 +1,7 @@
 .table__text_theme_dark {
-    margin-top: 20px;
-    height: 1.2;
-    font-size: 18px;
-    font-weight: normal;
-  }
+  margin: 0;
+  height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 20px;
+}
