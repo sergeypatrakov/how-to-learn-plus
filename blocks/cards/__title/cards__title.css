@@ -1,6 +1,8 @@
 .cards__title {
-    height: 1.15;
-    font-size: 24px;
-    font-weight: 600;
-    margin-top: 43px;
-  }
+  margin: 0;
+  height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 43px;
+}
