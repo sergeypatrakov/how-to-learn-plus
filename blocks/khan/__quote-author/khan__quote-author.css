@@ -1,5 +1,7 @@
 .khan__quote-author {
-    height: 1.15;
-    font-size: 24px;
-    font-weight: 600;
-  }
+  margin: 0;
+  height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 36px;
+}
