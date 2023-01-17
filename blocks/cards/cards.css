@@ -2,8 +2,9 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding-left: auto;
-  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 920px;
   list-style-type: none;
+  padding: 0;
 }
